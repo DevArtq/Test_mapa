@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Serviço de Trajetórias</h1>
+        <div class="inputs">
+            <input type="text" id="location1" placeholder="Nome da Cidade/Estado Ponto 1">
+            <input type="text" id="location2" placeholder="Nome da Cidade/Estado Ponto 2">
+            </select>
+            <button id="calculate-btn">Calcular Rota</button>
+        </div>        
+        <div id="result" class="result-box">Distância: -</div>
+        <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
